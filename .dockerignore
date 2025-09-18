@@ -1,0 +1,23 @@
+# Ignore Git directory
+.git/
+.gitignore
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore environment files
+.env
+
+# Docker files
+Dockerfile
+.dockerignore

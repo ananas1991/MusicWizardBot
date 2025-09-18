@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Caches and logs
+*.log
+
+# Virtual environment
+venv/
+env/
+
+.env
+# Secret/config files
+client_secret.json
+token.pickle
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# VSCode settings
+.vscode/

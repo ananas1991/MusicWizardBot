@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# | This file lists the Python packages required by the Music Wizard Bot.     |
+# | Install them using the command: pip install -r requirements.txt           |
+# -----------------------------------------------------------------------------
+
+# For interacting with the Telegram Bot API
+python-telegram-bot[ext]
+
+# For accessing OpenAI's language models (GPT-3.5, GPT-4o-mini)
+openai
+
+# For fetching song lyrics from the Genius.com API
+lyricsgenius
+
+# Google's API client library for Python
+google-api-python-client
+
+# Google's client library for OAuth 2.0
+google-auth-oauthlib
+
+# For making HTTP requests, used by Google's libraries
+google-auth-httplib2
+
+# A simple and elegant HTTP library for Python
+requests
+
+# For embedding album art into MP3 files
+mutagen
+
+# For downloading audio from YouTube
+yt-dlp
+
+# For loading environment variables from a .env file
+python-dotenv
+
+# For image processing (thumbnail resizing)
+Pillow
+
+# For running tests
+pytest
+pytest-asyncio
