@@ -5,7 +5,7 @@ MESSAGES = {
         "russian_button": "Русский",
         "download_single_song": "Download Single Song",
         "create_ai_playlist": "Create AI Playlist",
-        "welcome": "👋 Welcome to 🔥🔥🔥Music Wizard Bot🔥🔥🔥!\n\nWhat would you like to do?",
+        "welcome": "👋 Welcome to MusicWizard!\n\nWhat would you like to do?",
         "menu_prompt": "What would you like to do?",
         "cancelled": "Operation cancelled. Send /start to begin again.",
         "send_link": (
@@ -75,8 +75,7 @@ MESSAGES = {
         "download_single_song": "Скачать песню",
         "create_ai_playlist": "Создать AI плейлист",
         "welcome": (
-            "Добро пожаловать в 🔥🔥🔥Music Wizard Bot🔥🔥🔥!\n\nЧто вы хотите "
-            "сделать?"
+            "👋 Добро пожаловать в MusicWizard!\n\nЧто вы хотите сделать?"
         ),
         "menu_prompt": "Что вы хотите сделать?",
         "cancelled": "Операция отменена. Отправьте /start чтобы начать заново.",

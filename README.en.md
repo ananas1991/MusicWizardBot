@@ -1,6 +1,6 @@
-Music Wizard Telegram Bot
+MusicWizard Telegram Bot
 
-Music Wizard is a powerful, multi-functional Telegram bot designed to be your ultimate music companion. It seamlessly integrates with YouTube, OpenAI, and Genius to offer a rich set of features, from downloading individual songs to curating entire AI-generated playlists on your YouTube account.
+MusicWizard is a powerful, multi-functional Telegram bot designed to be your ultimate music companion. It seamlessly integrates with YouTube, OpenAI, and Genius to offer a rich set of features, from downloading individual songs to curating entire AI-generated playlists on your YouTube account.
 ✨ Features
 
     🎵 Single Song Downloader: Send a YouTube link to the bot, and it will:
@@ -27,7 +27,7 @@ Music Wizard is a powerful, multi-functional Telegram bot designed to be your ul
 
 🛠️ Setup and Installation
 
-Follow these steps to get your own instance of the Music Wizard Bot running.
+Follow these steps to get your own instance of the MusicWizard Bot running.
 1. Prerequisites
 
     Python 3.9 or higher
@@ -69,7 +69,8 @@ The bot relies on environment variables and a Google client secret file for its 
 
 A. Environment Variables:
 
-Set the following environment variables in your system.
+Set the following environment variables in your system. You can also copy the
+provided example file: `cp .env.example .env` and fill in your values.
 
     For macOS/Linux:
 

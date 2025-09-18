@@ -1,4 +1,4 @@
-"""Initialization for the Music Wizard library."""
+"""Initialization for the MusicWizard library."""
 
 from . import ai_services
 from . import config

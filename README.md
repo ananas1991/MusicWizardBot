@@ -1,7 +1,7 @@
-# Music Wizard — Telegram-бот для умных музыкальных подборок
+# MusicWizard — Telegram-бот для умных музыкальных подборок
 
 ## О проекте
-Music Wizard — многофункциональный Telegram-бот. Он скачивает любимые треки с YouTube, достаёт тексты песен с Genius, а также собирает плейлисты при помощи ИИ. 
+MusicWizard — многофункциональный Telegram-бот. Он скачивает любимые треки с YouTube, достаёт тексты песен с Genius, а также собирает плейлисты при помощи ИИ. 
 
 ## Попробовать
 
@@ -65,6 +65,7 @@ sudo apt-get update && sudo apt-get install -y ffmpeg
 # или brew install ffmpeg на macOS
 
 # Создайте файл `.env` и заполните токены
+# (можно скопировать пример: `cp .env.example .env`)
 cat <<'ENV' > .env
 TELEGRAM_TOKEN=...
 OPENAI_API_KEY=...
@@ -81,6 +82,7 @@ python bot.py
 - `GENIUS_ACCESS_TOKEN` — ключ доступа к Genius API.
 
 Все значения можно хранить в файле `.env`:
+# Быстрый старт: скопируйте пример `cp .env.example .env` и отредактируйте значения.
 ```env
 TELEGRAM_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

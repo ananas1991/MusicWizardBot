@@ -728,7 +728,7 @@ def main():
 
     application.add_handler(conv_handler)
 
-    logger.info("Music Wizard Bot is starting...")
+    logger.info("MusicWizard Bot is starting...")
     application.run_polling()
 
 
