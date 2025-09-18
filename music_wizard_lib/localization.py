@@ -14,8 +14,9 @@ MESSAGES = {
         ),
         "searching": "🔎 Searching YouTube for: {query}",
         "auth_error": (
-            "🔴 This feature is not working currently, please notify admin at "
-            "@ananas19911."
+            "🔴 YouTube authorization is not configured. Ensure "
+            "'client_secret.json' and 'token.pickle' are present in the project "
+            "root, then try again."
         ),
         "not_found": "❌ Sorry, couldn't find that song on YouTube. Please try again!",
         "search_error": "❌ There was an error searching YouTube. Please try again.",
@@ -84,7 +85,10 @@ MESSAGES = {
             "которую хотите скачать."
         ),
         "searching": "🔎 Поиск на YouTube: {query}",
-        "auth_error": "🔴 Эта функция сейчас не работает, сообщите @ananas19911.",
+        "auth_error": (
+            "🔴 Авторизация YouTube не настроена. Убедитесь, что в корне проекта "
+            "есть 'client_secret.json' и 'token.pickle', затем повторите попытку."
+        ),
         "not_found": "❌ Не удалось найти песню на YouTube. Попробуйте ещё раз!",
         "search_error": "❌ Произошла ошибка при поиске на YouTube. Попробуйте ещё раз.",
         "link_received": "🔗 Ссылка получена. Обработка...",

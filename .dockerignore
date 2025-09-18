@@ -18,6 +18,10 @@ __pycache__/
 # Ignore environment files
 .env
 
+# Secrets (do not send to Docker build context)
+client_secret.json
+token.pickle
+
 # Docker files
 Dockerfile
 .dockerignore

@@ -4,38 +4,32 @@
 # -----------------------------------------------------------------------------
 
 # For interacting with the Telegram Bot API
-python-telegram-bot[ext]
+python-telegram-bot[ext]>=20.8,<21
 
-# For accessing OpenAI's language models (GPT-3.5, GPT-4o-mini)
-openai
+# For accessing OpenAI's language models (uses AsyncOpenAI client)
+openai>=1.0.0,<2
 
 # For fetching song lyrics from the Genius.com API
-lyricsgenius
+lyricsgenius>=3.0.1,<4
 
 # Google's API client library for Python
-google-api-python-client
+google-api-python-client>=2.130.0,<3
 
 # Google's client library for OAuth 2.0
-google-auth-oauthlib
+google-auth-oauthlib>=1.2.0,<2
 
 # For making HTTP requests, used by Google's libraries
-google-auth-httplib2
+google-auth-httplib2>=0.2.0,<1
 
 # A simple and elegant HTTP library for Python
-requests
-
-# For embedding album art into MP3 files
-mutagen
+requests>=2.31.0,<3
 
 # For downloading audio from YouTube
-yt-dlp
+yt-dlp>=2024.08.06,<2025.0.0
 
 # For loading environment variables from a .env file
-python-dotenv
-
-# For image processing (thumbnail resizing)
-Pillow
+python-dotenv>=1.0.1,<2
 
 # For running tests
-pytest
-pytest-asyncio
+pytest>=8.2.0,<9
+pytest-asyncio>=0.23.8,<1

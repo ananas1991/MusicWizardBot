@@ -1,5 +1,6 @@
 import re
 import logging
+import asyncio
 import requests
 from . import config
 
@@ -18,10 +19,11 @@ async def get_lyrics(artist: str, title: str) -> str:
             timeout=15,
         )
         cleaned_title = re.sub(r"\(.*\)|\[.*\]", "", title).strip()
-        song = genius.search_song(cleaned_title, artist)
+        # Run blocking network call in a thread to avoid blocking the event loop
+        song = await asyncio.to_thread(genius.search_song, cleaned_title, artist)
         if not song or not song.lyrics:
             # Try again without the artist
-            song = genius.search_song(cleaned_title)
+            song = await asyncio.to_thread(genius.search_song, cleaned_title)
             if not song or not song.lyrics:
                 return "Could not find lyrics for this song."
 
